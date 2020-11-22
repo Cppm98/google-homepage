@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<style>
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline;
+    padding-top: 8px;
+}
+li a {
+    color:black;
+    text-decoration: none;
+    
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:99%;
+   height:40px;
+   color: #222;
+   border-top: 1px solid darkslategray;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    align-items: center;
+}
+.search-button {
+
+}
+
+</style>
+
+<head>
+
+</head>
+
+<html>
+    <body>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li style="float:right"><a href="#">Gmail</a></li>
+            <li style="float:right"><a href="#">Images</a></li>
+            <li style="float:right"><a href="#">Sign In</a></li>
+        </ul>
+
+        <div class="flex-container">
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+    
+        <div class="search-box"> 
+            <input class="search-text" type="text" name="search-text" placeholder="">
+        </div>
+        <div style="margin-top: 25px;">
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm Feeling Lucky">
+        </div>
+        </div>
+
+        <footer>
+            <ul>
+                <li style="float:left"><a href="#">Advertising</a></li>
+                <li style="float:left"><a href="#">Business</a></li>
+                <li style="float:left"><a href="#">How Search Works</a></li>
+                <li style="float:right"><a href="#">Privacy</a></li>
+                <li style="float:right"><a href="#">Terms</a></li>
+                <li style="float:right"><a href="#">Settings</a></li>
+            </ul>
+        </footer>
+    </body>
+
+
+
+
+</html>
